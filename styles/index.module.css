@@ -1,0 +1,18 @@
+
+.main{
+    display: flex;
+    background-color: #181f32;
+    gap: 25px;
+    height: 100vh;
+}
+@media screen and (max-Width:768px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-Width:500px){
+    .main{
+        width: 500px;
+    }
+}

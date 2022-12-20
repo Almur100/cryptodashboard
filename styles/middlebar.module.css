@@ -1,0 +1,132 @@
+
+.middlebar{
+    flex-basis: 47%;
+}
+.middlebartop{
+    background-color: #1b1b25;
+    width:50%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 4px;
+}
+.topleft input{
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: white;
+}
+.div2left{
+    background-color: #224dbe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 7px;
+}
+.div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    margin-top: 25px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 4px;
+}
+.price :first-child{
+    font-size: 14px;
+    color: white;
+}
+.price :last-child{
+    color: white;
+    font-weight: bold;
+}
+.div3{
+    width:100%;
+    height: 200px;
+    background-color: #151c2e;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.div4{
+    background-color:#151c2e;
+    margin-top: 25px;
+    padding: 10px;
+    
+    color: #dadbdc;
+}
+.div4div1{
+    display: flex;
+    justify-content: space-between;
+}
+.div4div1right span{
+    background-color: #212631;
+    margin-left: 15px;
+    padding: 4px;
+    font-size: 11px;
+    border-radius: 5px;
+
+}
+.div4div2{
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(6,1fr); */
+    justify-content: space-between;
+    align-items: center;
+    margin-top:15px;
+    
+}
+.div4div2 div{
+    margin-right: 0px;
+}
+.div4div3{
+    display: grid;
+    grid-template-columns:repeat(6,1fr) ;
+    
+    font-size: 13px;
+    margin-top: 12px;
+}
+.bitcon{
+    display: flex;
+    margin-left: -30px;
+}
+.bitcon :first-child{
+    margin-right: 3px;
+}
+.div4div3{
+    margin-right: 25px;
+}
+.recived{
+    margin-left:30px;
+    background-color: #29322f;
+    padding: 5px;
+    color:#2e6b4a;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+@media screen and (max-Width:768px){
+    .middlebar{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-Width:500px){
+    
+    .price :first-child{
+        font-size: 12px;
+    }
+    .price :last-child{
+        font-size: 12px;
+    }
+    .div4div3{
+        font-size: 8px;
+    }
+ 
+  
+}

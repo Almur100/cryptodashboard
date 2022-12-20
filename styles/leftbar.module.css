@@ -1,0 +1,38 @@
+
+.leftbar{
+    flex-basis: 15%;
+    background-color:#0d1019 ;
+}
+.leftbarbottom{
+    margin-top: 70px;
+}
+.leftbarbottom a{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    color:#dadbdc;
+   
+
+}
+.leftbarbottom a :first-child{
+    margin-right: 5px;
+}
+.leftbarbottom  :nth-child(6){
+    margin-top: 80px;
+
+}
+.leftbarbottom  :nth-child(9){
+    margin-bottom: 101px;
+
+}
+.leftbartop{
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+@media screen and (max-Width:768px){
+    .leftbar{
+        display: none;
+    }
+    
+}

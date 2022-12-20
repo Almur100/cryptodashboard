@@ -1,0 +1,142 @@
+
+.rightbar{
+    flex-basis: 33%;
+}
+.rightbartop{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 15px;
+    color:#dadbdc ;
+    font-size: 15px;
+}
+.rightbartop :nth-child(2){
+    font-size: 1px;
+
+}
+.img{
+    border-radius: 50%;
+}
+.div2{
+    background-color: #151c2e;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.div2top{
+    display: flex;
+    justify-content: space-around;
+    color: #dadbdc;
+}
+.div2bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #dadbdc;
+}
+.div2bottomright{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box1,.box2{
+    display: flex;
+    align-items: center;
+}
+.box1{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.box2{
+    margin-right: 20px;
+}
+.box2 :last-child{
+    margin-top: 2px;
+}
+.box1 :first-child, .box2 :first-child{
+    margin-right: 4px;
+}
+.box1 :first-child{
+    margin-top: 2px;
+}
+.box1 input{
+    width: 62px;
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: #dadbdc;
+    padding: 3px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.div3 div{
+    background-color: #224dbe;
+    padding:5px 40px;
+    border-radius: 5px;
+}
+.rightbarbottom{
+    background-color: #151c2e;
+    margin-top: 30px;
+    padding:15px;
+    border-radius: 8px;
+    color: #dadbdc;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.upperleft :first-child{
+    margin-right: 3px;
+    margin-bottom: -5px;
+
+}
+.lower{
+    background-color:#181f32 ;
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 3px;
+}
+.lowerdiv1 span{
+    margin-right: 4px;
+}
+.lowerdiv1 :first-child{
+    margin-bottom: -4px;
+}
+.lowerdiv1 :last-child{
+    font-size: 11px;
+}
+.lowerdiv3{
+    margin-left: 70px;
+}
+.lowerdiv2{
+    margin-left: 20px;
+}
+
+@media screen and (max-Width:768px){
+    .rightbar{
+        flex-basis: 100%;
+        
+    }
+    .rightbartop{
+        display: none;
+    }
+}
+@media screen and (max-Width:440px){
+    .lower{
+        margin-bottom: 50px;
+    }
+
+}
